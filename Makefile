@@ -1,9 +1,9 @@
 .PHONY: all clean check-size
-SASSC=sass
+SASSC=sassc
 SASSC_ARGS=--style compressed
 PANDOC=pandoc
 PANDOC_ARGS=--css=../styling.css -V lang=en -V highlighting-css= --mathjax \
-            --smart --to=html5
+            --from=markdown-smart --to=html5-smart
 TEST_MD=$(wildcard test_md/*.md)
 TEST_HTML=$(patsubst test_md/%.md,test_html/%.html,$(TEST_MD))
 

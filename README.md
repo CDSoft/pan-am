@@ -11,6 +11,13 @@ This should work with markdown, reStructuredText, textile, LaTeX, MediaWiki
 markup, or any other format Pandoc supports. It should even work for your
 semantically structured HTML5 documents, if they're written well enough.
 
+Note about this fork
+--------------------
+
+This repository is a clone of [bgw/pan-am](https://github.com/bgw/pan-am). It
+contains the very same code. Only the generated CSS file has been added for
+easier deployments.
+
 Simple to Use
 -------------
 
